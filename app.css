@@ -104,6 +104,7 @@ Black: #000000 (Black)
 
 html {
   font-size: 62.5%;
+  /* 10px / 16px / = 62.5%  */
 }
 body {
   font-family: var(--font-family);
@@ -148,6 +149,10 @@ a {
   text-decoration: none;
   font-size: var(--text-base);
   display: inline-block;
+}
+
+a:link, a:visited, a:hover, a:active{
+  color: var(--grey-base);
 }
 ul {
   list-style: none;
@@ -288,7 +293,7 @@ span {
 .features-grid-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  /* row-gap: 15rem; */
+  row-gap: 15rem;
   column-gap: 5rem;
   justify-items: center;
   align-items: center;
@@ -320,6 +325,7 @@ span {
 }
 .cta-heading {
   margin-bottom: 3rem;
+  color: var(--white);
 }
 /* ============footer============== */
 .footer {
@@ -341,4 +347,9 @@ span {
 .social-icons {
   width: 20px;
 }
+
+.heart-icon{
+  color: var(--secondary-base);
+}
+
 
