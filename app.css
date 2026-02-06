@@ -178,6 +178,7 @@ span {
   color: var(--white);
   background-color: var(--primary-base);
   border: 2px solid var(--primary-base);
+  transition: 0.5s;
 
 }
 
@@ -186,12 +187,14 @@ span {
   background-color: var(--primary-shade);
   border: 2px solid var(--primary-shade);
   transform: scale(1.05, 1.05);
+  box-shadow: 0px 3px 6px 0px var(--grey-base)
 }
 
 .btn-primary-outline:link, .btn-primary-outline:visited {
   color: var(--primary-shade);
   background-color: var(--white);
   border: 2px solid var(--primary-base);
+  transition: 0.5s;
 }
 
 .btn-primary-outline:hover, .btn-primary-outline:active {
@@ -199,12 +202,14 @@ span {
   background-color: var(--white);
   border: 2px solid var(--primary-shade);
   transform: scale(1.05, 1.05);
+  box-shadow: 0px 3px 6px 0px var(--grey-base)
 }
 
 .btn-secondary:link, .btn-secondary:visited {
   color: var(--white);
   background-color: var(--secondary-base);
   border: 2px solid var(--secondary-base);
+  transition: 0.5s;
 }
 
 .btn-secondary:hover, .btn-secondary:active{
@@ -212,6 +217,7 @@ span {
   background-color:var(--secondary-shade);
   border: 2px solid var(--secondary-shade);
   transform: scale(1.05, 1.05);
+  box-shadow: 0px 3px 6px 0px var(--grey-base);
 }
 
 .highlight {
